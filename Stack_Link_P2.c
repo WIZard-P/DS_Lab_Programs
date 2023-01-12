@@ -23,11 +23,11 @@ void push() // function to push value into stack
     {
         printf("Enter the value\n");
         scanf("%d", &val);
-        if (head == NULL)
+        if (head == NULL)  // equating head to null
         {
             ptr->val = val;   // pushing value
             ptr->next = NULL; // set next to null
-            head = ptr;       // equating head to null
+            head = ptr;       
         }
         else
         {
